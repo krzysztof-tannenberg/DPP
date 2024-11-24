@@ -1,0 +1,2 @@
+# DPP
+Dobre Praktyki Programowania
