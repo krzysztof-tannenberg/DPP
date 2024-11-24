@@ -1,0 +1,24 @@
+1. Singleton (LibraryCatalog)
+Użycie: Zapewnia, że w systemie istnieje tylko jedna instancja katalogu biblioteki.
+Uzasadnienie: Biblioteka ma jeden katalog książek, który jest współdzielony między różnymi częściami aplikacji. Singleton zapobiega tworzeniu wielu instancji katalogu.
+
+2. Adapter (BookAdapter)
+Użycie: Konwertuje dane o książkach z różnych formatów (JSON, CSV, XML) na standardowy format używany w aplikacji.
+Uzasadnienie: Dane mogą pochodzić z różnych źródeł, a Adapter umożliwia elastyczność w integracji z różnymi systemami. Ujednolicenie
+
+
+3. Factory (UserFactory)
+Użycie: Tworzy obiekty użytkowników (Student, Teacher, Librarian) w zależności od roli.
+Uzasadnienie: Fabryka uprzszcza tworzenie obiektów z różnymi uprawnieniami
+
+4. Observer (UserObserver)
+Użycie: Powiadamia użytkowników o zmianach statusów w bibliotece, np dodanie książki lub zwrot wypożyczonej pozycji
+Uzasadnienie: Użytkownicy mogą być informowani o interesujących ich zdarzeniach
+
+5. Facade (LibraryInterface)
+Uproszcza interakcję z systemem, zapewniając użytkownikowi prosty interfejs do operacji takich jak dodawanie, wypożyczanie i zwracanie książek.
+Uzasadnienie: Ukrywa szczegóły implementacyjne i upraszcza obsługę systemu.
+
+6. Iterator (BookIterator)
+Użycie: Umożliwia iterowanie po liście książek w katalogu.
+Uzasadnienie: Porządkuje sposób przeglądania kolekcji niezależnie od jej wewnętrznej implementacji
