@@ -10,7 +10,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(add(0, 0), 0)
 
     def test_subtract(self):
-        """Test dla funkcji subtract"""
+        """Test dla funkcji subtrac"""
         self.assertEqual(subtract(10, 5), 5)
         self.assertEqual(subtract(5, 10), -5)
         self.assertEqual(subtract(0, 0), 0)
