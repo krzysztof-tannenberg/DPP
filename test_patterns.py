@@ -41,6 +41,7 @@ def test_patterns():
     catalog = LibraryCatalog()
     catalog.add_book({"title": "Petit Prince", "author": "Antoine de Saint", "status": "Available"})
     catalog.add_book({"title": "Meow: A Novel", "author": "Sam Austen", "status": "Available"})
+
     iterator = BookIterator(catalog.get_books())
     print("Iterating through books:")
     for book in iterator:
