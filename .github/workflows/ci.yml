@@ -3,10 +3,10 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main
+      - CI_CD
   pull_request:
     branches:
-      - main
+      - CI_CD
 
 jobs:
   linting:
