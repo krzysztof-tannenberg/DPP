@@ -29,8 +29,6 @@ jobs:
         uses: github/super-linter@v4
         env:
           RUN_LOCAL: true
-        with:
-          changed_only: false
 
   tests:
     runs-on: ubuntu-latest
