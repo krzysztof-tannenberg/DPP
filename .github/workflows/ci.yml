@@ -33,6 +33,11 @@ jobs:
           coverage report
           coverage xml
 
+      - name: Upload Coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+
   lint:
     name: Lint Code with Super-Linter
     runs-on: ubuntu-latest
