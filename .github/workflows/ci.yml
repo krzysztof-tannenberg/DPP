@@ -53,9 +53,6 @@ jobs:
         env:
           VALIDATE_PYTHON_RUFF: true
           FIX_PYTHON_BLACK: true
-          FIX_PYTHON_ISORT: true
-          FIX_PYTHON_PYINK: true
-          FIX_PYTHON_RUFF: true
           DEFAULT_BRANCH: "CI_CD"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           commit_user_name: super-linter
