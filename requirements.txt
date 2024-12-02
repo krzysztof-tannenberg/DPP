@@ -2,3 +2,5 @@ pytest
 coverage
 black
 ruff
+super-linter
+unittest
